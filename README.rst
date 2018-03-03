@@ -381,6 +381,20 @@ Download an application key file ``spotify_appkey.key`` from
 Premium Account) and move the file to the ``~/.spotify-ripper`` directory (or use
 the ``-k | --key`` option).
 
+
+Arch
+~~~~~~~~~~~~~
+.. code:: bash
+
+    $ pacaur -S pyenv libffi libspotify
+    $ git clone https://github.com/develmusa/spotify-ripper.git
+    $ cd spotify-ripper
+    $ sudo ./setup.py install
+    $ pip install spotify-ripper
+    
+
+
+
 Windows
 ~~~~~~~
 
